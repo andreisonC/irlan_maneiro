@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <title>IRLAN</title>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+        * {
+            box-sizing: border-box;
+            padding: 0;
+            margin: 0;
+        }
+
+        body {
+            height: 100%;
+            width: 100%;
+            background-image: url(./BG.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        header {
+            backdrop-filter: blur(20px);
+            background: #2121211b;
+            display: flex;
+            width: 100%;
+            padding: 20px 50px;
+            align-items: center;
+            justify-content: space-between;
+            font-family: 'Open Sans', sans-serif;
+        }
+
+        li {
+            list-style: none;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        .box {
+            font-family: 'Montserrat', sans-serif;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 100%;
+            height: 25%;
+            text-align: center;
+            padding: 10px;
+            color: rgb(255, 255, 255);
+        }
+
+        .box i {
+            font-size: 55px;
+            color: white;
+            animation: discordAnim 3s ease infinite;
+        }
+
+        h1 {
+            color: #ccc;
+        }
+
+        .services {
+            display: flex;
+            flex-direction: row;
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        .services a {
+            color: #ccc;
+            padding: 0px 25px;
+            transition: 250ms ease;
+            padding: 0px 25px;
+        }
+
+        .services a:hover {
+            color: #fff;
+        }
+
+        .apresentacao {
+            display: flex;
+            flex-direction: column;
+            margin: 45px 0px;
+        }
+
+        .title {
+            font-size: 25px;
+        }
+
+        .desc {
+            padding: 5px 0px;
+            font-size: 13px;
+        }
+
+        @keyframes discordAnim {
+            0% {
+                transform: rotate(0deg);
+            }
+
+            25% {
+                transform: rotate(-20deg);
+            }
+
+            50% {
+                transform: rotate(20deg);
+            }
+
+            75% {
+                transform: rotate(-20deg);
+            }
+
+            100% {
+                transform: rotate(0deg);
+            }
+        }
+
+        @media (max-width: 1775px) {
+            body {
+
+                background-image: url(./BG.jpg);
+                background-repeat: no-repeat;
+                background-size: auto;
+                background-position: right 40%;
+            }
+        }
+
+        @media (max-width: 1422px) {
+            body {
+
+                background-image: url(./BG.jpg);
+                background-repeat: no-repeat;
+                background-size: 290vw;
+                background-position: right 40%;
+
+            
+
+
+
+            }
+        }
+
+
+        
+
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 15px;
+            }
+
+            .services {
+                font-size: 12px;
+            }
+
+            .services a {
+                padding: 0px 5px;
+
+
+
+
+        
+                
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="brand">
+            <h1><img src="./1648466874737.png"></h1>
+        </div>
+        <div class="services">
+            <a target="_blank" href="./1648465988084.png">
+                <li><img src="./1648465427598.png"></li>
+            </a>
+            <a target="_blank" href="./1648466874737.png">
+                <li><img scr="./1648466874737.png"></li>
+            </a>
+            <a target="_blank" href="#">
+                <li><img scr="./1648566106207.png"></li>
+            </a>
+            <a target="_blank" href="./BG.png">
+                <li><img scr="./1648565873800.png"></li>
+            </a>
+        </div>
+    </header>
+
+    <div class="box">
+        <i class='bx bxl-discord-alt'></i>
+
+        <div class="apresentacao">
+            <div class="title">
+                IRLAN MANEIRO
+            </div>
+            <div class="desc">
+                MANEIRO MANEIRO MANEIRO MANEIRO MANEIRO MANEIRO MANEIRO MANEIRO MANEIRO MANEIRO MANEIRO<br>
+                MANEIRO MANEIRO MANEIRO MANEIRO MANEIRO MANEIRO MANEIRO MANEIRO MANEIRO MANEIRO MANEIRO<br> 
+                MANEIRO MANEIRO MANEIRO MANEIRO MANEIRO MANEIRO MANEIRO MANEIRO MANEIRO MANEIRO MANEIRO<br>
+                MANEIRO MANEIRO MANEIRO MANEIRO MANEIRO MANEIRO MANEIRO MANEIRO MANEIRO MANEIRO MANEIRO<br> 
+                MANEIRO MANEIRO MANEIRO MANEIRO MANEIRO MANEIRO MANEIRO MANEIRO MANEIRO MANEIRO MANEIRO<br>
+                MANEIRO MANEIRO MANEIRO MANEIRO MANEIRO MANEIRO MANEIRO MANEIRO MANEIRO MANEIRO MANEIRO<br> 
+                MANEIRO MANEIRO MANEIRO MANEIRO MANEIRO MANEIRO MANEIRO MANEIRO MANEIRO MANEIRO MANEIRO<br>
+                MANEIRO MANEIRO MANEIRO MANEIRO MANEIRO MANEIRO MANEIRO MANEIRO MANEIRO MANEIRO MANEIRO<br> 
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
